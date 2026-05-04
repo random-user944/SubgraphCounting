@@ -11,10 +11,10 @@ For each generated hypergraph:
 - Remove cases where one hyperedge is a subset of another  
 - Remove cases where one vertex’s incident edge set is contained in another’s  
 
-## Lemma 3.3 Filters
+## Filters
 The following filters are applied:
-- **Single-Uncovered-Vertex Filter** (`main_filter`)  
-- **Double-Uncovered-Vertex Filter** (`two_vertex_filter`)  
+- **Lemma 3.1 Single-Uncovered-Vertex Filter** (`main_filter`)  
+- **Lemma 3.2 Double-Uncovered-Vertex Filter** (`two_vertex_filter`)  
 - **Case 2 of Lemma 3.3** (`validate_no_full_union`)  
 
 These filters eliminate configurations that can be handled by the lemma.
